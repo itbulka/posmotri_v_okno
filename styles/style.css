@@ -134,7 +134,7 @@ ol {
 
 .search-form__label:has(.search-form__textfield:focus-visible) {
   outline: 1px solid #fff;
-  outline-offset: 1px;
+  outline-offset: 2px;
 }
 
 .search-form__textfield:hover {
@@ -142,7 +142,7 @@ ol {
 }
 
 .search-form__textfield:active {
-  border: 1px solid #fff;
+  outline: 1px solid #fff;
 }
 
 .search-form__fieldset-title {
@@ -296,7 +296,7 @@ ol {
 .content__video-card-thumbnail {
   display: inline-block;
   inline-size: 194px;
-  box-sizing: 103px;
+  block-size: 103px;
   background-size: contain;
 }
 
